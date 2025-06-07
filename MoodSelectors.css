@@ -1,0 +1,22 @@
+/* MoodSelectors.css */
+.mood-button {
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  width: 100%;
+  background-color: #f3f4f6; /* Tailwind's gray-100 */
+  transition: background-color 0.3s ease;
+}
+
+.mood-button:hover {
+  background-color: #bfdbfe; /* Tailwind's blue-200 */
+}
+
+.mood-button.active {
+  background-color: #93c5fd; /* Tailwind's blue-300 */
+}
+
+.clear-button {
+  font-size: 0.75rem;
+  color: #ef4444; /* Tailwind's red-500 */
+  margin-top: 0.25rem;
+}

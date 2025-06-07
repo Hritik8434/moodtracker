@@ -1,0 +1,29 @@
+/* MoodSummary.css */
+.summary-box {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.summary-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.mood-bar {
+  display: flex;
+  gap: 0.25rem;
+  height: 100%;
+  margin-top: 1rem;
+}
+
+.mood-segment.happy {
+  background-color: #4ade80; /* green-400 */
+}
+.mood-segment.neutral {
+  background-color: #facc15; /* yellow-400 */
+}
+.mood-segment.sad {
+  background-color: #f87171; /* red-400 */
+}

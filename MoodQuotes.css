@@ -1,0 +1,22 @@
+.mood-quote {
+  opacity: 0;
+  animation: fadeSlideUpQuote 1.2s ease forwards;
+  animation-delay: 0.5s;
+  font-style: italic;
+  font-size: 1.1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: rgba(255,255,255,0.7);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+@keyframes fadeSlideUpQuote {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
